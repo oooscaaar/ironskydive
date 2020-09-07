@@ -47,6 +47,7 @@ h4 {
 h5 {
     font-size: 1.2em;
     line-height: 1em;
+    margin: 0 auto;
 }
 
 ul {
@@ -161,21 +162,36 @@ ul {
     height: 180px;
 }
 
+.schedule-table {
+    margin: 0 auto 40px auto;
+    font-size: 1.5em;
+}
+
+.schedule-table th, td {
+    border-bottom: 1px solid black;
+    padding: 5px 10px;
+    text-align: center;
+}
+
 .footer {
     font-size: 1.9em;
     text-align:center;
+    padding: 40px 100px;
+    margin-bottom: 25px;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
 }
 
 .address {
     font-style: normal;
     font-size: 0.8em;
+    margin-bottom: 30px;
 }
 
 .footer a {
     color:rgb(67,163,230);
     text-decoration: none;
-}
-.footer {
-    font-size: 1.9em;
-    text-align:center;
 }
