@@ -3,6 +3,9 @@
 html, body{
     margin: 0px;
     padding: 0px;
+}
+
+body{
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
     font-weight: 300;
@@ -10,7 +13,7 @@ html, body{
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1 {
@@ -45,6 +48,11 @@ h5 {
     line-height: 1em;
 }
 
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
 .nav-bar {
     background-color:  rgb(25,33,41);
 }
@@ -57,7 +65,7 @@ h5 {
 
 .header {
     height: 650px;
-    background-image: url("https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg");
+    background-image: url('https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg');
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,7 +80,7 @@ h5 {
     color: white;
 }
 
-#general-information p {
+.text {
     font-size: 2em;
     font-weight: 100;
     text-align: center;
@@ -110,4 +118,23 @@ h5 {
 #team img {
     width: 250px;
     height: 180px;
+}
+
+.footer {
+    font-size: 1.9em;
+    text-align:center;
+}
+
+.address {
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+.footer a {
+    color:rgb(67,163,230);
+    text-decoration: none;
+}
+.footer {
+    font-size: 1.9em;
+    text-align:center;
 }
