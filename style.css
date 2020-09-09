@@ -1,3 +1,8 @@
+/* TO CHECK / IMPLEMENT
+- Section 3: Commented class
+- Section 4: Copy footer iframe src from my.ironhack
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 
 html, body{
@@ -79,6 +84,7 @@ ul {
 
 .header {
     height: 650px;
+    position: relative;
     padding-top: 50px;
     background-image: url('https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg');
     background-position: 0 0;
@@ -88,6 +94,21 @@ ul {
 
 .quote {
     font-size: 2.5em;
+    position: absolute;
+    left: 10%;
+    bottom: 100px;
+}
+
+#general-information {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#general-information .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
 }
 
 .container {
@@ -111,6 +132,7 @@ ul {
 .link-btn {
     background-color: rgb(67,163,230);
     color: white;
+    padding: 10px 30px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 2em;
     letter-spacing: 0.5px;
@@ -123,11 +145,18 @@ ul {
     text-align: center;
     border: 2px solid #eee;
     border-radius: 20px;
-    box-sizing: boder-box;
+    box-sizing: border-box;
     box-shadow: 2px 2px 10px 0 #eee;
     margin: 50px 5% 0 5%;
     padding: 20px;
     width: 40%;
+}
+
+#structure > div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .service-box img {
@@ -148,6 +177,18 @@ ul {
     margin: 20px auto 30px auto;
     width: 40%;
 }
+
+#team > div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*#team > div > article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} */
 
 #team .section-text {
     font-size: 1.9em;
