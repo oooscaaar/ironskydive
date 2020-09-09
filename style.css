@@ -221,6 +221,9 @@ ul {
     text-align:center;
     padding: 40px 100px;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer ul {
@@ -237,4 +240,9 @@ ul {
 .footer a {
     color:rgb(67,163,230);
     text-decoration: none;
+}
+
+.map-frame {
+    height: 375px;
+    width: 60%;
 }
